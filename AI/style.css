@@ -1,0 +1,1224 @@
+.flex-container{
+    margin:0px;
+    background-color:lightgrey;
+}
+
+  
+.header{
+    /* position: fixed; */
+    z-index: 1;
+    display: flex;
+    background-color:black;
+    align-items: center;
+}
+
+#logo{
+    margin-left: 120px;
+}
+
+.header p{
+    padding-top: 16px;
+    color:white;
+    font-style:Britannic Bold;
+    margin-left: 20px;
+}
+
+.header svg{
+    height:30px;
+    width:30px;
+    margin-left: 590px;
+    cursor: pointer;
+ 
+}
+
+.imagerotate{
+    transition-property:transform;
+    transition-duration:1s;
+    }
+    .imagerotate:hover{
+    transform:scale(1.5);
+    }
+
+.header button{
+    width:120px;
+    padding: 05px;
+    color:white;
+    background-color: blue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    border-radius: 08px;
+    border:1px solid blue;
+    margin-left: 70px;
+    cursor:pointer;
+}
+
+.header button:hover{
+    background-color: white;
+    color:black;
+    border:1px solid white;
+}
+
+.link1{
+    font-size: 20px;
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 40px;
+}
+
+.link1:hover{
+    color:red;
+    text-decoration: none; 
+   
+}
+
+.header b{
+    color:white;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.menubar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    /* padding-bottom: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menubar ul li{
+    display:inline ;
+}
+
+.menubar ul li a{
+    
+    margin-left: 10px;
+    text-decoration: none;
+    padding-left: 50px;
+    color:black;
+    font-size: 19px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menubar ul li a:hover{
+color:red;
+}
+
+.menubar svg{
+    margin-left: 220px;
+    padding-bottom: 8px;
+}
+
+
+#find{
+    align-items: center;
+    margin-left: 10px;
+    padding-bottom: 7px;
+    text-decoration: none;
+    color:black;
+    font-size: 19px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#find:hover{
+    color:red;
+}
+
+.mainimage p{
+    position: relative;
+    left: 80px;
+    bottom:430px;
+    color:white;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* s */
+}
+
+.mainimage h4{
+    position: relative;
+    left: 190px;
+    bottom:410px;
+    color:white;
+    font-size: 22px;
+}
+
+.mainimage button{
+    color:white;
+    background-color: crimson;
+    width:170px;
+    padding:10px;
+    font-size: 17px;
+    position: relative;
+    left: 150px;
+    bottom:320px;
+    border:2px solid white;
+    border-radius: 18px ;
+}
+
+.mainimage button:hover{
+    color:white;
+    background-color: black;
+    cursor: pointer;
+}
+
+
+.image1 img{
+    height:350px;
+    width:650px;
+    margin-top:-175px;
+    margin-left: 70px;
+}
+
+#text{
+    position: absolute;
+    text-align: center;
+    /* padding-top:20px; */
+    width:260px;
+    height:90px;
+    font-size: 30px;
+    top:880px;
+    left:620px;
+    color:white;
+    background-color: crimson;
+    font-family: sans-serif;
+}
+
+.links{
+    display:flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.links ul li{
+    display: inline;
+   
+}
+
+.links ul li a{
+    color:black;
+    font-size: 20px;
+    margin-left: 130px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.links ul li a:hover{
+    color:red;
+    text-decoration: none;
+}
+
+.parallax1 {
+    /* The image used */
+    background-image: url("images/image1.jpg");
+  
+    /* Set a specific height */
+    min-height: 600px; 
+    width:100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .text_parallax{
+      margin-top: -20px;
+        height:2000px;
+        background-color:lightgrey;
+    /* font-size:36px; */
+  }
+
+.background {
+    width:1200px;
+    height:1200px;
+    color:#04003F;
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 170px;
+    text-align: center;
+    font-size: 50px;
+    font-family:Franklin Gothic Heavy;
+    font-weight: bold;
+    padding-top: 10px;
+    text-decoration:underline #04003F;
+}
+
+.background b{
+    position:absolute;
+    top:1270px;
+    left:425px;
+    font-size: 23px;
+    color:blue;
+    text-decoration:none;
+    font-family: Verdana;
+}
+
+.question{
+    padding-left:20px ;
+    position:absolute;
+    top:1370px;
+    left:325px;
+    font-size: 18px;
+    color:black;
+    display: inline;
+    background-color: whitesmoke;
+}
+
+.question h3{
+    color:#EB38A6;
+}
+
+.question iframe{
+    height:420px;
+    width:620px;
+    margin-left: 100px;
+    padding-top: 20px;
+}
+
+.image2 img{
+    margin-top:30px;
+    height:500px;
+}
+
+.image2 h2{
+    height:80px;
+    padding-top:100px;
+    font-size: 50px;
+    color:#04003F;
+    font-family: Forte;
+    text-align: center;
+    padding-top: 10px;
+    background-color: white;
+}
+
+.shaky:hover{
+    animation:  shake 0.8s  ;
+    animation-iteration-count: infinite;
+    }
+    @keyframes shake{
+    0%{
+    transform: translateX(0)
+    }
+    25%{
+    transform: translateX(25px);
+    }
+    50%{
+    transform: translateX(-25px);
+    }
+    100%{
+    transform: translateX(0px);
+    }
+    }
+
+
+    .para{
+        align-items: center;
+        height:7270px;
+        width:1100px;
+        margin-left: 230px;
+        background-color: white;
+    }
+
+    .para h3{
+        align-items: center;
+        padding-top: 30px;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: Barlow Condensed;
+        color:#04003F;
+        margin-left: 450px;
+        text-decoration: underline black;
+    }
+
+    .para img{
+    margin-left: 0px;
+    }
+
+    .para1{
+        padding-top: 10px;
+        width:900px;
+        margin-left: 90px;
+        margin-right: 50px;
+    }
+
+    .para1 h2{
+        color:#04003F;
+        font-size: 35px;
+        font-family: monospace;
+        font-weight: bold;
+    }
+
+    .para1 h4{
+        font-size: 25px;
+        font-family: monospace;
+        font-weight: bold; 
+        text-decoration: underline;
+    }
+
+    .para1 p{
+        padding-top: 10px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    .para h1{
+        align-items: center;
+        padding-top: 30px;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: Barlow Condensed;
+        color:#04003F;
+        margin-left: 400px;
+        text-decoration: underline black;
+    }
+
+    .footer_image{
+        margin-top: 40px;
+    }
+
+    .footer_image h1{
+        position: relative;
+        left: 340px;
+        bottom:450px;
+        color:white;
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .footer_image h2{
+        position: relative;
+        left: 180px;
+        bottom:610px;
+        color:white;
+        font-size: 60px;
+        font-weight: bold;
+        font-family: Broadway;
+    }
+
+    .footer{
+        margin-top: -165px;
+        padding-left: 400px; 
+        background-color:black;
+    }
+
+    .footer h2{
+        font-family:Georgia;
+        color:white; 
+        padding:25px;
+    }
+
+    .footer1{
+        background-color:black; 
+        text-align:center; 
+        margin:-20px 0px; 
+        padding:50px;  
+        text-transform:uppercase;
+    }
+
+    .footer1 a{
+        font-size:18px; 
+        color:white; 
+        font-family:Georgia; 
+        font-weight:bold; 
+        text-decoration:none;
+    }
+
+    .footer1 a:hover{
+        
+        color:red; 
+       
+        text-decoration:none;
+    }
+
+    /* ___________________________________________How_it_works______________________________________________________ */
+    .how_it_works_image b{
+        position: relative;
+        bottom:380px;
+        left:590px;
+        font-size: 80px;
+        font-family: Harlow Solid Italic;
+        color:white;
+        }
+   
+    .how_it_works_image h1{
+    position: relative;
+    bottom:410px;
+    left:590px;
+    font-weight: bold;
+    font-size: 60px;
+    font-family: Harlow Solid Italic;
+    color:white;
+    }
+
+    #gif1{
+        position: relative;
+        bottom:711px;
+        left:0px;
+        width:500px;
+    }
+
+#btn{
+    position: relative;
+    color:white;
+    background-color: red;
+    bottom:560px;
+    left:160px;
+    border:1px solid white;
+    font-size: 18px;
+    border-radius: 20px;
+    padding:10px;
+    width:120px;
+}
+
+#btn:hover{
+    color:black;
+    background-color: white;
+}
+
+.how_it_works_info{
+    width:1200px;
+    height:5800px;
+    background-color: white;
+    margin-left: 150px;
+    margin-top: -650px;
+
+}
+
+.how_it_works_info h1{
+    font-size: 40px;
+    color:#04003F;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.how_parallax {
+    /* The image used */
+    background-image: url("images/image5.jpg");
+  
+    /* Set a specific height */
+    min-height: 550px; 
+    width:100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.how_it_works_info p{
+    margin:0px 30px 0px 30px;
+    font-size:28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.how_it_works_info img{
+    margin-left: 300px;
+    padding-top: 20px;
+}
+
+
+.how_it_works_info h3{
+    font-size: 35px;
+    text-decoration: underline;
+    font-weight: bold;
+    color:#04003F;
+    margin-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.how_it_works_info h4{
+    position: relative;
+    font-size: 70px;
+    color:black;
+    bottom:440px;
+    left:800px;
+    font-family: cursive;
+}
+    
+
+.how_it_works_info ul li{
+    color:black;
+    font-size: 25px;
+    width:1000px;
+    margin-left: 30px;
+}
+
+.fullgif img{
+    margin-top: 50px;
+}
+
+.fullgif p{
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    left: 480px;
+    bottom: -6030px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+.footer_1{
+    margin-bottom: 10px;
+    padding-left: 400px; 
+    background-color:black;
+}
+
+.footer_1 h2{
+    font-family:Georgia;
+    color:white; 
+    padding:25px;
+}
+
+.footer1_1{
+    background-color:black; 
+    text-align:center; 
+    margin:-10px 0px; 
+    padding:50px;  
+    text-transform:uppercase;
+}
+
+.footer1_1 a{
+    font-size:18px; 
+    color:white; 
+    font-family:Georgia; 
+    font-weight:bold; 
+    text-decoration:none;
+}
+
+.footer1_1 a:hover{
+    
+    color:red; 
+   
+    text-decoration:none;
+}
+
+
+/* _________________________________________________Neural Network_______________________________________________________________ */
+
+.neural_mainimage p{
+    position: relative;
+    
+    left: 120px;
+    bottom:470px;
+    color:white;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+ 
+}
+
+.neural_mainimage button{
+    color:white;
+    background-color: crimson;
+    width:170px;
+    padding:10px;
+    font-size: 17px;
+    position: relative;
+    left: 150px;
+    bottom:400px;
+    border:2px solid white;
+    border-radius: 18px ;
+}
+
+.neural_mainimage button:hover{
+    color:white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.neural_text{
+    
+   
+    background-color: white;
+}
+
+.neural_text1{
+    width:1200px;
+    height:680px;
+    background-color: white;
+    margin-left: 150px;
+    margin-top: -150px;
+
+}
+
+.neural_text1 h1{
+    font-size: 35px;
+    color:#04003F;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.neural_text1 p{
+    margin:0px 30px 0px 30px;
+    font-size:25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.neural_text1 video{
+    margin-left: 280px;
+    padding-top: 20px;
+}
+
+.neural_today h1{
+    font-size: 35px;
+    color:#04003F;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.neural_today p{
+    width:1000px;
+    margin-left: 250px;
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.neural_parallax {
+    /* The image used */
+    background-image: url("images/image2.jpg");
+  
+    /* Set a specific height */
+    min-height: 550px; 
+    width:100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+.neural_flexbox{
+     display:flex;
+}
+
+
+.neural_flexbox .box1{
+   
+    margin-left: 110px;
+    height:400px;
+    width:400px;
+    background-color: white;
+    color:black;
+}
+
+.neural_flexbox .box1 svg{
+    height:100px;
+    width:100px;
+    color:blue;
+    padding-top: 20px;
+    margin-left: 130px;
+}
+
+.neural_flexbox .box1 h3{
+    text-decoration: underline;
+    font-size: 22px;
+    margin-left: 45px;
+}
+
+.neural_flexbox .box1 p{
+    padding-top: 10px;
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+.neural_flexbox .box_2{
+    margin-left: 50px;
+    height:400px;
+    width:400px;
+    background-color: white;
+    color:black;
+}
+
+.neural_flexbox .box_2 svg{
+    height:100px;
+    width:100px;
+    color:blue;
+    padding-top: 20px;
+    margin-left: 130px;
+}
+
+.neural_flexbox .box_2 h3{
+    text-decoration: underline;
+    font-size: 22px;
+    margin-left: 45px;
+}
+
+.neural_flexbox .box_2 p{
+    padding-top: 10px;
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+
+.neural_flexbox .box_3{
+    margin-left: 50px;
+    height:400px;
+    width:400px;
+    background-color: white;
+    color:black;
+}
+
+.neural_flexbox .box_3 svg{
+    height:100px;
+    width:100px;
+    color:blue;
+    padding-top: 20px;
+    margin-left: 130px;
+}
+
+.neural_flexbox .box_3 h3{
+    text-decoration: underline;
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+.neural_flexbox .box_3 p{
+    padding-top: 10px;
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+.neural_fullimage img{
+    padding-top: 40px;
+}
+
+.footer_2{
+    /* margin-top: -20px; */
+    margin-bottom: 10px;
+    padding-left: 400px; 
+    background-color:black;
+}
+
+.footer_2 h2{
+    font-family:Georgia;
+    color:white; 
+    padding:25px;
+}
+
+.footer2_2{
+    background-color:black; 
+    text-align:center; 
+    margin:-10px 0px; 
+    padding:50px;  
+    text-transform:uppercase;
+}
+
+.footer2_2 a{
+    font-size:18px; 
+    color:white; 
+    font-family:Georgia; 
+    font-weight:bold; 
+    text-decoration:none;
+}
+
+.footer2_2 a:hover{
+    
+    color:red; 
+   
+    text-decoration:none;
+}
+
+/* __________________________________________________Machine Learning___________________________________________________________ */
+
+
+.machine_learning_image b{
+    position: relative;
+    bottom:380px;
+    left:590px;
+    font-size: 80px;
+    font-family: Harlow Solid Italic;
+    color:white;
+    }
+
+.machine_learning_image h1{
+position: relative;
+bottom:350px;
+left:590px;
+font-weight: bold;
+font-size: 60px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color:white;
+}
+
+#machine_gif1{
+    position: relative;
+    bottom:596px;
+    left:0px;
+    width:500px;
+}
+
+
+
+#btn1{
+position: relative;
+color:white;
+background-color: red;
+bottom:490px;
+left:160px;
+border:1px solid white;
+font-size: 18px;
+border-radius: 20px;
+padding:10px;
+width:120px;
+}
+
+#btn1:hover{
+color:black;
+background-color: white;
+}
+
+
+.machine_text{
+    background-color: white;
+    color:black;
+    width:1100px;
+    margin-left: 220px;
+}
+
+.machine_text h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: -550px;
+    text-align: center;
+    color:#04003F;
+}
+
+.machine_text p{
+    padding-top: 15px;
+    font-size: 24px;
+    width:800px;
+    margin-left: 150px;
+}
+
+.machine_text ul li{
+    padding-top: 15px;
+    color:blue;
+    width:800px;
+    font-size: 22px;
+    margin-left: 120px;
+}
+
+.machine_text img{
+    margin-left: 250px;
+}
+
+
+.parallax {
+    /* The image used */
+    background-image: url("images/parallax.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+    width:100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .text_parallax{
+      margin-top: -20px;
+        height:2000px;
+        background-color:lightgrey;
+    /* font-size:36px; */
+  }
+
+
+  .text1_parallax{
+      padding-top: 20px;
+      margin-left: 170px;
+      text-align: center;
+      height:1500px;
+      width:1200px;
+      background-color: white;
+    color:black;
+  }
+
+  .text1_parallax h1{
+    padding-top: 10px;
+    margin-left: -10px;
+    color:black;
+    font-family: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+  }
+
+  .text1_parallax p{
+      margin: 0px 10px 0px 10px;
+      font-size: 20px;
+      padding-top: 20px;
+  }
+
+  
+  .text1_parallax .text2_parallax{
+    padding-top: 10px;
+    margin-left: 10px;
+    color:blue;
+    font-family: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+  }
+
+  .text1_parallax .text3_parallax{
+      padding-top: 10px;
+      margin-left: 70px;
+      width:1000px;
+      font-size: 22px;
+
+  }
+
+  .text1_parallax .financial{
+      padding-top: 10px;
+      margin-left: -10px;
+  }
+
+
+/* _______________________________________________Deep Learning_______________________________________________________________ */
+
+
+.deep_learning_image img{
+    height:700px;
+}
+
+.deep_learning_image h1{
+    position: relative;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+    top:-550px;
+    left:80px;
+}
+
+.deep_learning_image #btn2{
+    position: relative;
+    top:-350px;
+    left:250px;
+    color:white;
+    font-size: 20px;
+    padding: 10px;
+    background-color: red;
+    border:2px solid white;
+    border-radius: 20px;
+    width:130px;
+}
+
+.deep_learning_image #btn2:hover{
+    color:white;
+    background-color: blue;
+}
+
+.deep_text{
+    height:1100px;
+    background-color: white;
+    color:black;
+    width:1100px;
+    margin-left: 220px;
+}
+
+.deep_text h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: -130px;
+    text-align: center;
+    color:#04003F;
+}
+
+.deep_text p{
+    padding-top: 15px;
+    font-size: 24px;
+    width:800px;
+    margin-left: 150px;
+}
+
+.deep_text ul li{
+    padding-top: 15px;
+    color:blue;
+    width:800px;
+    font-size: 22px;
+    margin-left: 120px;
+}
+
+.deep_text img{
+    margin-left: 250px;
+}
+
+
+.deep1_text{
+    background-color: white;
+    color:black;
+    width:1100px;
+    margin-left: 220px;
+}
+
+.deep1_text h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 38px;
+    margin-top: 50px;
+    text-align: center;
+    color:#04003F;
+}
+
+.deep1_text p{
+    padding-top: 15px;
+    font-size: 20px;
+    width:800px;
+    margin-left: 150px;
+}
+
+
+.deep_parallax {
+    /* The image used */
+    background-image: url("images/deep_parallax.jpg");
+  
+    /* Set a specific height */
+    min-height: 1000px; 
+    width:100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .deep_today h1{
+    font-size: 35px;
+    color:#04003F;
+    margin-bottom: 50px;
+    
+    text-align: center;
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.deep_today p{
+    width:1000px;
+    margin-left: 440px;
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.deep_flexbox{
+     display:flex;
+}
+
+
+.deep_flexbox .box_01{
+   
+    margin-left: 110px;
+    height:400px;
+    width:400px;
+    background-color: white;
+    color:black;
+}
+
+.deep_flexbox .box_01 svg{
+    height:100px;
+    width:100px;
+    color:blue;
+    padding-top: 20px;
+    margin-left: 130px;
+}
+
+.deep_flexbox .box_01 h3{
+    text-decoration: underline;
+    font-size: 22px;
+    margin-left: 35px;
+}
+
+.deep_flexbox .box_01 p{
+    padding-top: 10px;
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+.deep_flexbox .box_02{
+    margin-left: 50px;
+    height:400px;
+    width:400px;
+    background-color: white;
+    color:black;
+}
+
+.deep_flexbox .box_02 svg{
+    height:100px;
+    width:100px;
+    color:blue;
+    padding-top: 20px;
+    margin-left: 130px;
+}
+
+.deep_flexbox .box_02 h3{
+    text-decoration: underline;
+    font-size: 22px;
+    margin-left: 45px;
+}
+
+.deep_flexbox .box_02 p{
+    padding-top: 10px;
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+
+.deep_flexbox .box_03{
+    margin-left: 50px;
+    height:400px;
+    width:400px;
+    background-color: white;
+    color:black;
+}
+
+.deep_flexbox .box_03 svg{
+    height:100px;
+    width:100px;
+    color:blue;
+    padding-top: 20px;
+    margin-left: 130px;
+}
+
+.deep_flexbox .box_03 h3{
+    text-decoration: underline;
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+.deep_flexbox .box_03 p{
+    padding-top: 10px;
+    font-size: 18px;
+    margin-left: 25px;
+}

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script>
+       $(document).ready(function(){
+        $('.toggle').click(function(){
+            $('.question').fadeToggle(2000);
+        });
+
+        $('.toggle').click(function(){
+            $('.hidenow').fadeToggle(3000);
+        });
+
+       }); 
+
+       function greeting(){
+           alert("Thank You For Submitting !!!")
+       }
+    </script>
+</head>
+
+<body>
+
+    <!-- Main Heading -->
+    <div class="flex-container">
+        <div class="header">
+            <img id="logo" src="images/logo.jpg" alt="" height="90px" width="120px">
+            <p>ARTIFICIAL INTELLIGENGE<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-the future of technology</p>
+
+            <svg class="imagerotate" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                class="bi bi-search" viewBox="0 0 16 16">
+                <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+            </svg>
+            <a href="login.html"><button type="button">LOGIN</button></a>
+            <a href="join.html"><button type="button">JOIN</button></a>
+        </div>
+        <!-- ____________________________________________________________________________________________________________ -->
+
+
+        <!-- Menu bar -->
+        <div class="menubar">
+            <ul>
+                <li><a href="how_it_works.html" target="_blank">How It Works</a></li>
+                <li><a href="neural.html " target="_blank">Neural Networks</a></li>
+                <li><a href="machine_learning.html" target="_blank">Machine Learning</a></li>
+                <li><a href="deep_learning.html" target="_blank">Deep Learning</a></li>
+                <!-- <li><a href="">Home</a></li> -->
+
+            </ul>
+            <svg class="imagerotate" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="black"
+                class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+            </svg>
+            <a id="find" href="https://www.google.com/maps/dir/19.1102976,73.0005504/google+headquarters+map/@19.0769521,72.8575972,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3be7cebde7c00001:0x854935636d95a60!2m2!1d72.8508398!2d19.0543562" target="_blank">find my tech hub</a>
+
+        </div>
+
+        <!-- _____________________________________________________________________________________________________ -->
+
+        <!-- main image -->
+        <div class="mainimage">
+            <img src="images/mainimage.jpg" class="hideme" alt="" width="100%" height="500px">
+            <p>ARTIFICIAL <br>INTELLIGENCE</p>
+
+            <h4>-the future of technology</h4>
+
+            <button type="button" class="toggle2">Click to know more</button>
+        </div>
+
+        <!-- ______________________________________________________________________________________________________ -->
+
+        <!-- text on image -->
+        <div class="image1">
+            <img id="abc" src="images/image1.jpg" alt="">
+            <img id="def" src="http://insights.fuse.ai/wp-content/uploads/2021/07/0276.jpg_wh300.jpg" alt="">
+            <b id="text">Want to know <br>the power of AI</b>
+        </div>
+        <!-- ___________________________________________________________________________________________________________ -->
+
+        <div class="background" id="article">
+
+            <p class="shaky">Introduction to AI</p>
+            <b>Frequently Asked Artificial Intelligence Questions</b>
+
+            <button class="toggle" style="font-size: 18px; margin-top: 50px;">Click Me</button>
+
+        </div>
+<br>
+        <div class="question" >
+            <h3>WHAT IS ARTIFICIAL INTELLIGENCE?</h3>
+            <p>Artificial intelligence (AI) is a wide-ranging branch of computer science concerned with building smart
+                machines<br> capable of performing tasks that typically require human intelligence.</p>
+
+            <div style="border-bottom:5px solid grey; padding-top:10px; padding-bottom:10px;"></div>
+
+            <h3>WHAT ARE THE FOUR TYPES OF ARTIFICIAL INTELLIGENCE?</h3>
+            <p>
+            <ul>
+                <li>Reactive Machines</li>
+                <li>Limited Memory</li>
+                <li>Theory of Mind</li>
+                <li>Self-Awareness</li>
+            </ul>
+            </p>
+            <div style="border-bottom:5px solid grey; padding-top:10px; padding-bottom:10px;"></div>
+
+            <h3>WHAT ARE EXAMPLES OF ARTIFICIAL INTELLIGENCE?</h3>
+            <p>
+            <ul>
+                <li>Siri, Alexa and other smart assistants</li>
+                <li>Self-driving cars</li>
+                <li>Robo-advisors</li>
+                <li>Conversational bots</li>
+                <li>Email spam filters</li>
+                <li>Netflix's recommendations</li>
+            </ul>
+            </p>
+
+            <iframe src="https://youtu.be/oV74Najm6Nc" frameborder="0"></iframe>
+        </div>
+
+        <!-- __________________________________________________________________________________________________________ -->
+        <div class="links">
+            <ul>
+                <li><a href="#concepts">CONCEPTS</a></li>
+                <li><a href="#uses">USES, EXAMPLES + APPLICATIONS</a></li>
+                <li><a href="#history">HISTORY</a></li>
+                <li><a href="#article">ARTICLES</a></li>
+            </ul>
+
+        </div>
+        <div class="parallax1"></div>
+
+        <!-- ____________________________________________________________________________________________________________ -->
+        <div class="para">
+            <h3 class="shaky" id="concepts">Concepts</h3>
+            <img src="images/gif3.gif" alt="" height="500px" width="1100px">
+
+
+            <div class="para1">
+                <h2 class="shaky">How Does Artificial Intelligence Work?</h2>
+                <h4>AI Approaches and Concepts</h4>
+                <p>Less than a decade after breaking the Nazi encryption machine Enigma and helping the Allied Forces
+                    win World War II, mathematician Alan Turing changed history a second time with a simple question:
+                    "Can machines think?" </p>
+                <br>
+                <p>Turing's paper <mark>"Computing Machinery and Intelligence"</mark> (1950), and its subsequent Turing
+                    Test,
+                    established the fundamental goal and vision of artificial intelligence. </p>
+                <br>
+               
+                <p>The expansive goal of artificial intelligence has given rise to many questions and debates. So much
+                    so, that no singular definition of the field is universally accepted. </p>
+                <br>
+
+                <h2 class="shaky" id="uses">The Four Types of Artificial Intelligence</h2>
+                <br>
+                <h4>Reactive Machines. </h4>
+                <svg style="margin-left: 370px;" xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="black" class="bi bi-pc-display-horizontal" viewBox="0 0 16 16">
+                    <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0h-13Zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5ZM12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0Zm2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0ZM1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1ZM1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25Z"/>
+                  </svg>
+                <p>A reactive machine follows the most basic of AI principles and, as its name implies, is capable
+                    of only using its intelligence to perceive and react to the world in front of it. A reactive
+                    machine cannot store a memory and as a result cannot rely on past experiences to inform decision
+                    making in real-time.</p>
+                <br>
+                
+                <p>A famous example of a reactive machine is Deep Blue, which was designed by IBM in the 1990’s as a
+                    chess-playing supercomputer and defeated international grandmaster Gary Kasparov in a game. Deep
+                    Blue was only capable of identifying the pieces on a chess board and knowing how each moves based on
+                    the rules of chess, acknowledging each piece’s present position, and determining what the most
+                    logical move would be at that moment. The computer was not pursuing future potential moves by its
+                    opponent or trying to put its own pieces in better position. Every turn was viewed as its own
+                    reality, separate from any other movement that was made beforehand.</p>
+                <br>
+                <div style="border-bottom:5px solid grey; padding-top:10px; padding-bottom:10px;"></div>
+                <br>
+                <h4>Limited Memory.</h4>
+                <svg style="margin-left: 370px;" xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="black" class="bi bi-hdd" viewBox="0 0 16 16">
+                    <path d="M4.5 11a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zM3 10.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
+                    <path d="M16 11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V9.51c0-.418.105-.83.305-1.197l2.472-4.531A1.5 1.5 0 0 1 4.094 3h7.812a1.5 1.5 0 0 1 1.317.782l2.472 4.53c.2.368.305.78.305 1.198V11zM3.655 4.26 1.592 8.043C1.724 8.014 1.86 8 2 8h12c.14 0 .276.014.408.042L12.345 4.26a.5.5 0 0 0-.439-.26H4.094a.5.5 0 0 0-.44.26zM1 10v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1z"/>
+                  </svg>
+                <p>Limited memory artificial intelligence has the ability to store previous data and predictions when
+                    gathering information and weighing potential decisions — essentially looking into the past for clues
+                    on what may come next. Limited memory artificial intelligence is more complex and presents greater
+                    possibilities than reactive machines.</p>
+                <br>
+                <p>Limited memory AI is created when a team continuously trains a model in how to analyze and utilize
+                    new data or an AI environment is built so models can be automatically trained and renewed. When
+                    utilizing limited memory AI in machine learning, six steps must be followed: Training data must be
+                    created, the machine learning model must be created, the model must be able to make predictions, the
+                    model must be able to receive human or environmental feedback, that feedback must be stored as data,
+                    and these these steps must be reiterated as a cycle.</p>
+                <br>
+                <div style="border-bottom:5px solid grey; padding-top:10px; padding-bottom:10px;"></div>
+                <br>
+                <h4>Theory of Mind.</h4>
+                <svg style="margin-left: 370px;" xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="black" class="bi bi-motherboard" viewBox="0 0 16 16">
+                    <path d="M11.5 2a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5Zm2 0a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5Zm-10 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6Zm0 2a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1h-6ZM5 3a1 1 0 0 0-1 1h-.5a.5.5 0 0 0 0 1H4v1h-.5a.5.5 0 0 0 0 1H4a1 1 0 0 0 1 1v.5a.5.5 0 0 0 1 0V8h1v.5a.5.5 0 0 0 1 0V8a1 1 0 0 0 1-1h.5a.5.5 0 0 0 0-1H9V5h.5a.5.5 0 0 0 0-1H9a1 1 0 0 0-1-1v-.5a.5.5 0 0 0-1 0V3H6v-.5a.5.5 0 0 0-1 0V3Zm0 1h3v3H5V4Zm6.5 7a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-2Z"/>
+                    <path d="M1 2a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-2H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 9H1V8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6H1V5H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 2H1Zm1 11a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v11Z"/>
+                  </svg>
+                <p>Theory of Mind is just that — theoretical. We have not yet achieved the technological and scientific
+                    capabilities necessary to reach this next level of artificial intelligence. </p>
+                <br>
+                <p>The concept is based on the psychological premise of understanding that other living things have
+                    thoughts and emotions that affect the behavior of one’s self. In terms of AI machines, this would
+                    mean that AI could comprehend how humans, animals and other machines feel and make decisions through
+                    self-reflection and determination, and then will utilize that information to make decisions of their
+                    own. Essentially, machines would have to be able to grasp and process the concept of “mind,” the
+                    fluctuations of emotions in decision making and a litany of other psychological concepts in real
+                    time, creating a two-way relationship between people and artificial intelligence.</p>
+                <br>
+                <div style="border-bottom:5px solid grey; padding-top:10px; padding-bottom:10px;"></div>
+                <br>
+                <h4>Self-awareness</h4>
+                <svg style="margin-left: 370px;" xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="black" class="bi bi-broadcast-pin" viewBox="0 0 16 16">
+                    <path d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707zm2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 1 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708zm5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708zm2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707zM6 8a2 2 0 1 1 2.5 1.937V15.5a.5.5 0 0 1-1 0V9.937A2 2 0 0 1 6 8z"/>
+                  </svg>
+                <p>Once Theory of Mind can be established in artificial intelligence, sometime well into the future, the
+                    final step will be for AI to become self-aware. This kind of artificial intelligence possesses
+                    human-level consciousness and understands its own existence in the world, as well as the presence
+                    and emotional state of others. It would be able to understand what others may need based on not just
+                    what they communicate to them but how they communicate it. </p>
+                <br>
+                <p>Self-awareness in artificial intelligence relies both on human researchers understanding the premise
+                    of consciousness and then learning how to replicate that so it can be built into machines.</p>
+                <br>
+
+                <img src="images/types_image.jpg" alt="" width="900px" style="margin-left:0px;">
+                <br><br>
+                <h4>How is AI Used? </h4>
+
+                <p>While addressing a crowd at the Japan AI Experience in 2017, DataRobot CEO Jeremy Achin began his
+                    speech by offering the following definition of how AI is used today:</p>
+                <br>
+                <p>"AI is a computer system able to perform tasks that ordinarily require human intelligence... Many of
+                    these artificial intelligence systems are powered by machine learning, some of them are powered by
+                    deep learning and some of them are powered by very boring things like rules."</p>
+                <br>
+                <h1 class="shaky" id="history">History</h1>
+                <br>
+                <img src="images/history.jpeg" alt="" width="900px" style="margin-left: 0px;">
+                <button class="toggle" style="font-size: 18px; margin-left: 1px; margin-top: 20px; color:white; background-color: red;">Click Me</button>
+                <br>
+                <div class="hidenow">
+                <h4>A Brief History of Artificial Intelligence</h4>
+                <br>
+                <p>Intelligent robots and artificial beings first appeared in the ancient Greek myths of Antiquity.
+                    Aristotle's development of syllogism and its use of deductive reasoning was a key moment in
+                    mankind's quest to understand its own intelligence. While the roots are long and deep, the history
+                    of artificial intelligence as we think of it today spans less than a century. The following is a
+                    quick look at some of the most important events in AI. </p>
+                <br>
+                <h4>1940s</h4>
+                <br>
+               
+                <p>(1949) In his book The Organization of Behavior: A Neuropsychological Theory, Donald Hebb proposes
+                    the theory that neural pathways are created from experiences and that connections between neurons
+                    become stronger the more frequently they're used. Hebbian learning continues to be an important
+                    model in AI.</p><br>
+                <h4>1950s</h4>
+                <br>
+                
+                <p>(1950) Claude Shannon publishes the paper "Programming a Computer for Playing Chess." </p>
+                <br>
+                <p>(1959) John McCarthy and Marvin Minsky founded the MIT Artificial Intelligence Project.</p>
+                <br>
+
+                <iframe src="https://gifer.com/embed/CMCN" width=480 height=270.000 frameBorder="0" allowFullScreen style="margin-left: 180px;"></iframe><p><a href="https://gifer.com"></a></p>
+                <h4>1960s - 2000s</h4><br>
+               
+                <p>(1969) The first successful expert systems are developed in DENDRAL, a XX program, and MYCIN,
+                    designed to diagnose blood infections, are created at Stanford.</p><br>
+                
+                <p>(2005) STANLEY, a self-driving car, wins the DARPA Grand Challenge.</p><br>
+                <p>(2008) Google makes breakthroughs in speech recognition and introduces the feature in its iPhone app.
+                </p><br>
+                <h4>2010s - 2021s</h4>
+                <p>(2012) Andrew Ng, founder of the Google Brain Deep Learning project, feeds a neural network using
+                    deep learning algorithms 10 million YouTube videos as a training set. The neural network learned to
+                    recognize a cat without being told what a cat is, ushering in the breakthrough era for neural
+                    networks and deep learning funding.</p><br>
+                
+                <p>(2018) Waymo launches its Waymo One service, allowing users throughout the Phoenix metropolitan area
+                    to request a pick-up from one of the company's self-driving vehicles.</p><br>
+                <p>(2020) Baidu releases its LinearFold AI algorithm to scientific and medical teams working to develop
+                    a vaccine during the early stages of the SARS-CoV-2 pandemic. The algorithm is able to predict the
+                    RNA sequence of the virus in just 27 seconds, 120 times faster than other methods.</p><br>
+
+                <img src="images/robot.jpg" alt="" width="900px" style="margin-left: 0px;">
+            </div>
+
+            </div>
+
+        </div>
+        <!-- _______________________________________________________________________________________________________________ -->
+
+
+
+        <!-- ________________________________________________________________________________________________________________ -->
+        <div class="footer_image">
+            <img src="images/footer_image.jpg" alt="" width="100%" height="600px">
+            <h1>-The Future Of Technology</h1>
+            <h2>Artificial Intelligence</h2>
+        </div>
+
+
+
+        <!-- _____________________________________________________________________________________________________________ -->
+
+
+
+
+        <div class="footer">
+            <h2>Connect with us :
+                <input style="font-size:18px; text-align:left; color:black;" type="text" value=""
+                    placeholder="Enter your E-mail here....." size="32" required>
+                <button
+                    style="color:black;font-size:18px; background-color:white; border:2px solid white;" onclick="greeting()">submit</button>
+        </div>
+        <div class="footer1">
+            <a href="#">About Us &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">Profile &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">Contact Us&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">FAQ's&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">More Info&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">Future&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <br>
+            <br>
+            <a href="#">Concepts&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">Human Robot&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">Terms & Conditions&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">Privacy Policy</a>
+            <br><br><br>
+            <br><br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <b style="color:white; font-size:16px; text-decoration:underline; font-family:Georgia; ">Follow Us
+                on</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br><br>
+            <div style="margin:1px 1px;">
+                <img class="imagerotate"
+                    src="https://th.bing.com/th/id/OIP.aYVbqEFb2M-SWsBh_LafIQHaHa?w=206&h=206&c=7&o=5&dpr=1.25&pid=1.7"
+                    height="30" width="30">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img class="imagerotate"
+                    src="https://th.bing.com/th/id/OIP.A_QLZ7Y9nBwaWnkhCbvGmQHaHZ?w=199&h=198&c=7&o=5&dpr=1.25&pid=1.7"
+                    height="30" width="30">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img class="imagerotate"
+                    src="https://th.bing.com/th/id/OIP.mjoG94zAqNefzlni3m2hRgHaHa?w=177&h=180&c=7&o=5&dpr=1.25&pid=1.7"
+                    height="30" width="30">
+            </div><br><br><br>
+            <b style="text-align:center; color:white; font-size:15px; font-family:Georgia;">COPYRIGHT <sup>&copy;</sup>
+                2021 HARDIK PATIL&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; POWERED BY HARDIK PATIL <sup>&reg;
+                </sup></b>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- _________________________________________________________________________________________________________ -->
